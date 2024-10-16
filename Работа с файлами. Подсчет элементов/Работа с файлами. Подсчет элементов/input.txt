@@ -1,0 +1,6 @@
+Hello, i am input file. I have digits - 1234567890, symbols - !@#$%^&*?
+And some strings:
+one
+two
+three
+stop

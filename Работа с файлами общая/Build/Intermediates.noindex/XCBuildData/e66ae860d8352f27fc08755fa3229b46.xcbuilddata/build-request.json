@@ -1,0 +1,58 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "947b3a7d22293f2ab057e9c5a0bdbab45e2b96d088575a13ddd8703b9583c96b"
+    }
+  ],
+  "containerPath" : "/Users/Stanislav_Egorov/Documents/Project_Xcode/Работа с файлами общая/Работа с файлами общая.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx14.4",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/Stanislav_Egorov/Documents/Project_Xcode/Работа с файлами общая/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/Stanislav_Egorov/Documents/Project_Xcode/Работа с файлами общая/Build/Products",
+      "derivedDataPath" : "/Users/Stanislav_Egorov/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/Stanislav_Egorov/Library/Developer/Xcode/DerivedData/Работа_с_файлами_общая-cjwrgfrrfykrgvdavpntxwceyafc/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/Stanislav_Egorov/Library/Developer/Xcode/DerivedData/Работа_с_файлами_общая-cjwrgfrrfykrgvdavpntxwceyafc/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/Stanislav_Egorov/Documents/Project_Xcode/Работа с файлами общая/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

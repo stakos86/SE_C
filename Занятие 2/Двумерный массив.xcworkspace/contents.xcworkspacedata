@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:&#x414;&#x432;&#x443;&#x43c;&#x435;&#x440;&#x43d;&#x44b;&#x438;&#x306; &#x43c;&#x430;&#x441;&#x441;&#x438;&#x432;.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:&#x414;&#x432;&#x443;&#x43c;&#x435;&#x440;&#x43d;&#x44b;&#x438;&#x306; &#x43c;&#x430;&#x441;&#x441;&#x438;&#x432;.hpp">
+   </FileRef>
+   <FileRef
+      location = "container:&#x417;&#x430;&#x43d;&#x44f;&#x442;&#x438;&#x435; 2/&#x417;&#x430;&#x43d;&#x44f;&#x442;&#x438;&#x435; 2.xcodeproj">
+   </FileRef>
+</Workspace>
