@@ -1,0 +1,79 @@
+Для решения вашей задачи можно использовать стандартные функции и методы класса std::string из стандартной библиотеки C++. Вот как это можно сделать:
+
+Найдите и замените вхождение некоторого слова на заданное пользователем слово.
+Вы можете использовать функцию std::string::find чтобы найти позицию искомого слова в строке, а затем функцию std::string::replace чтобы заменить его на новое слово. Вот пример кода, который делает это:
+
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string str = "Hello World!";
+    std::string word_to_replace = "World";
+    std::string new_word = "C++";
+
+    std::size_t pos = str.find(word_to_replace);
+    if (pos != std::string::npos) {
+        str.replace(pos, word_to_replace.length(), new_word);
+    }
+
+    std::cout << str << std::endl;
+    return 0;
+}
+В этом примере, слово "World" в строке "Hello World!" заменяется на "C++", и результат выводится на экран 2.
+
+Измените текст таким образом, чтобы каждое предложение начиналось с большой буквы.
+Для этого вы можете пройтись по строке, проверяя каждый символ. Если символ является первым в строке или следует за пробелом, вы можете преобразовать его в верхний регистр с помощью функции std::toupper. Вот пример:
+
+#include <iostream>
+#include <string>
+
+std::string Capitalize_first_letter(std::string text) {
+    for (int i = 0; i < text.length(); i++) {
+        if (i == 0 || text[i - 1] == ' ') {
+            text[i] = std::toupper(text[i]);
+        }
+    }
+
+    return text;
+}
+
+int main() {
+    std::cout << Capitalize_first_letter("hello world. it's a beautiful day.") << std::endl;
+    return 0;
+}
+В этом коде каждое предложение в строке начинается с большой буквы, а остальные буквы остаются без изменений 2.
+
+Посчитайте, сколько раз каждая буква встречается.
+Вы можете создать массив размером 26 (для каждой буквы алфавита) и проходить по строке, увеличивая значение соответствующего элемента массива каждый раз, когда встречаете букву. В конце просто выведите значения массива.
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+int main() {
+    std::string str = "Hello World!";
+    std::vector<int> counts(26, 0);
+
+    for (char c : str) {
+        if (std::isalpha(c)) {
+            counts[std::tolower(c) - 'a']++;
+        }
+    }
+
+    for (int i = 0; i < 26; i++) {
+        if (counts[i] > 0) {
+            std::cout << static_cast<char>('a' + i) << ": " << counts[i] << std::endl;
+        }
+    }
+
+    return 0;
+}
+Этот код подсчитывает, сколько раз каждая буква встречается в строке, без учета регистра 1.
+
+Посчитайте, сколько раз цифры встречаются в тексте.
+Это очень похоже на предыдущий пункт, но вместо этого вы проверяете, является ли символ цифрой с помощью функции std::isdigit, и увеличиваете счетчик, если это так.
+
+#include <iostream>
+#include <string>
+
+int main() {
