@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'Работа с файлами общая' in project 'Работа с файлами общая' (no dependencies)
